@@ -48,7 +48,7 @@ function App() {
       <Alert alert={almsg} />
       <div className='container my-3'>
         <Routes>
-          <Route exact path="/reactapp" element={<TextForm showmsg={showmsg} mode={mode} />} />
+          <Route exact path="/TextCraft" element={<TextForm showmsg={showmsg} mode={mode} />} />
           <Route exact path="/about" element={<Aboutus mode = {mode} val1 = {val1}/>} />
         </Routes>
       </div>
